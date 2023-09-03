@@ -6,7 +6,7 @@ import CheckoutProduct from './CheckoutProduct'
 
 export const Checkout = () => {
   
-  const[{basket},dispatch]=useStateValue()
+  const[{basket,user},dispatch]=useStateValue()
 
 
 
@@ -14,6 +14,7 @@ export const Checkout = () => {
     <div className='checkout'>
         <div className="checkout__left">
             <img className='checkout__ad' src="https://m.media-amazon.com/images/G/01/AdProductsWebsite/images/AUX/ILB_BrightColors_Approved._TTW_.jpg" alt="" />
+            <h3>Hello, {user?.email}</h3>
             <div className="checkout__title">
                 Shopping cart
             </div>
