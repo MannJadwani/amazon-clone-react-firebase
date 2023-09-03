@@ -1,6 +1,6 @@
 # See the Live App:
 
-[AmazonClone]{https://clone-e260c.web.app}
+[AmazonClone](https://clone-e260c.web.app)
 
 # Getting Started with Create React App
 
