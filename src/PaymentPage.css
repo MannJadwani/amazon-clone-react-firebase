@@ -39,6 +39,7 @@
 .payment__title{
 flex: 0.2;
 }
-.payment__adsress, .payment__item{
+.payment__details, .payment__adsress, .payment__item{
     flex: 0.8;
 }
+    
